@@ -13,7 +13,6 @@ const ExpensesList = ({expenses}) => {
       data={expenses}
       keyExtractor={(item) => item.id}
       renderItem={renderExpenseItem}
-      style={{marginBottom: 50}}
       />
   )
 }

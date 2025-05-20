@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   container:{
     flex: 1,
     paddingHorizontal: 10,
-    paddingTop: 24,
+    paddingTop: 25,
     paddingBottom: 0,
     backgroundColor: GlobalStyles.colors.primary800,
   },

@@ -59,6 +59,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderRadius: 4,
         minWidth: 80,
+        minHeight: 35,
       },
         amountText: {
         fontWeight: "bold",
