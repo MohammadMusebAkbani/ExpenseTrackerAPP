@@ -10,7 +10,7 @@ const ExpensesOutput = ({expenses,expensesPeriod ,fallbackText}) => {
     content = <ExpensesList expenses={expenses} />
   }
   return (
-    <View>
+    <View style={styles.container}>
        <ExpensesSummary expenses={expenses} periodName={expensesPeriod}/>
          {content}
     </View>
@@ -22,13 +22,13 @@ export default ExpensesOutput
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-    paddingHorizontal: 24,
+    paddingHorizontal: 10,
     paddingTop: 24,
     paddingBottom: 0,
-    backgroundColor: GlobalStyles.colors.primary700,
+    backgroundColor: GlobalStyles.colors.primary800,
   },
   fallbackText:{
-    color: GlobalStyles.colors.primary200,
+    color: 'white',
     textAlign: 'center',
     fontSize: 16,
     marginTop: 32,

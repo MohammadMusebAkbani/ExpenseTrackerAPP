@@ -35,7 +35,6 @@ const styles = StyleSheet.create({
     expenseItem: {
         padding: 12,
         marginVertical: 8,
-        marginHorizontal:8,
         backgroundColor: GlobalStyles.colors.primary500,
         borderRadius: 6,
         flexDirection: "row",
@@ -51,7 +50,6 @@ const styles = StyleSheet.create({
         fontSize: 16,
         marginBottom: 4,
         fontWeight: "bold",
-        color: 'white',
       },
       amountContainer: {
         paddingHorizontal: 12,
